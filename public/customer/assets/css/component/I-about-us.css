@@ -1,0 +1,292 @@
+.I-about-us{
+
+}
+.I-about-us .mission-wrapper{
+	padding: 100px 0;
+	overflow: hidden;
+	display: flex;
+}
+.I-about-us .mission-wrapper .mission-content{
+	width: 50%;
+}
+.I-about-us .mission-wrapper .mission-content .content-wrapper{
+	max-width: 80%;
+}
+.I-about-us .mission-wrapper .mission-content .content-wrapper .mission-title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #101945;
+	margin: 0 0 45px 0;
+}
+.I-about-us .mission-wrapper .mission-content .content-wrapper .mission-description{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px; 
+	text-align: justify;
+	color: #101945;
+}
+.I-about-us .mission-wrapper .mission-content .content-wrapper .mission-description span{
+	font-weight: 700;
+}
+.I-about-us .mission-wrapper .mission-image{
+	width: 50%;
+	position: relative;
+}
+.I-about-us .mission-wrapper .mission-image .image-wrapper{
+	position: relative;
+	max-width: 85%;
+	z-index: 2;
+}
+.I-about-us .mission-wrapper .mission-image .image-bg-01{
+	position: absolute;
+	top: -70px;
+	left: -70px;
+	width: 200px;
+}
+.I-about-us .mission-wrapper .mission-image .image-bg-02{
+	position: absolute;
+	bottom: -90px;
+	right: 0px;
+	width: 200px;
+}
+.I-about-us .mission-wrapper .mission-image .circle{
+	position: absolute;
+	bottom: -90px;
+	left: -70px;
+	width: 200px;
+	padding: 0 20px;
+	animation: circle linear 20s infinite;
+	z-index: 3;
+}
+.I-about-us .mission-wrapper .mission-image .image-01{
+	position: absolute;
+	top: -70px;
+	right: 0px;
+	width: 200px;
+	z-index: 3;
+}
+@keyframes circle {
+  0%   {transform: rotate(0);} 
+  100% {transform: rotate(360deg);}
+}
+
+.I-about-us .progress-wrapper{
+	position: relative;
+	padding: 100px 0;
+	display: flex;
+	align-items: center; 
+	/*background: linear-gradient(180deg, #FFF7F1 0%, #FFECED 100%);*/
+}
+.I-about-us .progress-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.I-about-us .wrapper{
+	z-index: 2;
+}
+.I-about-us .progress-block{
+	display: flex;
+	align-items: center; 
+}
+.I-about-us .progress-wrapper .process-image{
+	width: 50%;
+	padding: 0 25px;
+}
+.I-about-us .progress-wrapper .process-content{
+	width: 50%;
+	padding: 0 25px;
+}
+.I-about-us .progress-wrapper .process-content .block-title{
+	text-align: left;
+	width: 420px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #101945;
+	margin: 0 0 50px 0;
+}
+.I-about-us .progress-wrapper .process-content .block-description{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: justify;
+	color: #101945;
+}
+
+.I-about-us .executive-wrapper{
+	padding: 70px 0;
+} 
+.I-about-us .executive-wrapper .executive-title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #101945;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.I-about-us .executive-wrapper .executive-item{
+	padding: 130px 10px 0 10px;
+}
+.I-about-us .executive-wrapper .executive-item .item-title-wrapper{
+	position: relative;
+	padding: 150px 30px 40px 30px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	background-color: #fff;
+}
+.I-about-us .executive-wrapper .executive-item .item-title-wrapper .item-image-wrapper{
+	position: relative;
+	width: 100%;
+}
+.I-about-us .executive-wrapper .executive-item .item-title-wrapper .item-image-wrapper .item-image{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+}
+.I-about-us .executive-wrapper .executive-item .item-position{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+	color: #FF3D2E;
+	margin: 0 0 8px 0;
+}
+.I-about-us .executive-wrapper .executive-item .item-name{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: justify;
+	text-transform: capitalize; 
+	color: #262626;
+	margin: 0 0 8px 0;
+}
+.I-about-us .executive-wrapper .executive-item .item-description{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px; 
+	color: #8C8C8C;
+}
+
+
+
+#carousel-executive .owl-nav{
+	display: none;
+}
+#carousel-executive .owl-dots{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#carousel-executive .owl-dot{
+	background: #D9D9D9;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	font-size: unset;
+	line-height: unset;
+	padding: unset;
+	border-radius: 50px;
+	transition: all .3s ease-in;  
+	cursor: pointer;
+	margin: 0 5px;
+}
+#carousel-executive .owl-dot.active{
+	background: linear-gradient(90deg, #FFA109 0%, #FF0742 100%);
+	width: 40px; 
+}
+#carousel-executive .owl-dot:hover{
+	width: 40px;
+	opacity: 1;
+}
+
+#carousel-executive .owl-stage-outer{
+	padding: 30px 0;
+}
+ 
+
+
+@media only screen and (max-width: 1600px){
+
+}
+@media only screen and (max-width: 1480px){ 
+
+}
+@media only screen and (max-width: 1280px){ 
+
+}
+@media only screen and (max-width: 1024px){
+	.I-about-us .mission-wrapper{
+		display: block;
+	}
+	.I-about-us .mission-wrapper .mission-content{
+		width: 100%;
+		max-width: 550px;
+		margin: auto;
+	}
+	.I-about-us .mission-wrapper .mission-content .content-wrapper{
+		max-width: 100%; 
+	}
+	.I-about-us .mission-wrapper .mission-content .content-wrapper .mission-title{
+		text-align: center;
+	}
+	.I-about-us .mission-wrapper .mission-image{
+		width: 100%;
+		max-width: 550px;
+		margin: 100px auto 50px auto;
+	}
+	.I-about-us .progress-block{
+		display: block;
+	}
+	.I-about-us .progress-wrapper .process-image{
+		width: 100%;
+		max-width: 550px;
+		margin: 20px auto;
+		padding: 0
+	}
+	.I-about-us .progress-wrapper .process-content{
+		width: 100%;
+		max-width: 550px;
+		margin: 20px auto;
+		padding: 0
+	}
+	.I-about-us .progress-wrapper .process-content .block-title{
+		width: 100%;
+		text-align: center;
+		margin: 0 0 30px 0;
+	}
+}
+@media only screen and (max-width: 991px){
+    
+}
+@media only screen and (max-width: 767px){
+	.I-about-us .executive-wrapper .executive-title{
+		margin: 0 0 30px 0;
+	}
+}
+@media only screen and (max-width: 575px){
+	.I-about-us .progress-wrapper .process-content .block-title{
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.I-about-us .mission-wrapper .mission-image .image-wrapper{
+		max-width: 100%;
+	}
+	.I-about-us .mission-wrapper .mission-image .image-01{
+		width: 90px;
+		right: 10px;
+	}
+	.I-about-us .mission-wrapper .mission-image .circle{
+		bottom: -90px;
+		left: 00px;
+		width: 150px;
+	}
+} 
