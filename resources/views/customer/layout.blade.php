@@ -57,10 +57,9 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 						<p class="footer-item"><a href="{{ route("customer.about") }}">About us</a></p>
-						<p class="footer-item"><a href="{{ route("customer.future") }}">Future Students</a></p>
-						<p class="footer-item"><a href="{{ route("customer.current") }}">Current Students</a></p>
-						<p class="footer-item"><a href="{{ route("customer.event") }}">Events and News</a></p>
-						<p class="footer-item"><a href="{{ route("customer.community") }}">Our Community</a></p>
+						<p class="footer-item"><a href="{{ route("customer.event") }}">Event</a></p>
+						<p class="footer-item"><a href="{{ route("customer.news") }}">Blog</a></p>
+						<p class="footer-item"><a href="{{ route("customer.contact") }}">Contact</a></p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 						<p class="footer-item">Kết nối với chúng tôi: </p>
