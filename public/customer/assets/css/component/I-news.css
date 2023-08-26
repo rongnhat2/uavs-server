@@ -5,10 +5,12 @@
     background-position: center;
 }
 .I-news .news-block-title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
 	text-align: center;
-	font-weight: 900;
-	font-size: 32px; 
-	margin: 0 0 40px 0;
+	color: #101945;
+	margin: 0 0 50px 0;
 }
 .I-news .news-block-title span{
 	background: linear-gradient(90deg, #1C468E 0%, #2F80ED 100%);
