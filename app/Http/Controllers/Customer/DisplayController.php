@@ -40,23 +40,14 @@ class DisplayController extends Controller
         $page = "about";
         return view('customer.about', compact("page"));
     }
-    public function future(){
-        $page = "future";
-        return view('customer.future', compact("page"));
+    public function news(){
+        $page = "news";
+        return view('customer.news', compact("page"));
     }
-    public function future_detail($slug){
-        $data = $this->future->get_with_slug($slug);  
-        $page = "future";
-        return view('customer.future-detail', compact("page", "data"));
-    }
-    public function current(){
-        $page = "current";
-        return view('customer.current', compact("page"));
-    }
-    public function current_detail($slug){
-        $data = $this->current->get_with_slug($slug); 
-        $page = "current";
-        return view('customer.current-detail', compact("page", "data"));
+    public function news_detail($slug){
+        $data = $this->news->get_with_slug($slug);  
+        $page = "news";
+        return view('customer.news-detail', compact("page", "data"));
     }
     public function event(){
         $page = "event";
@@ -71,8 +62,8 @@ class DisplayController extends Controller
         $page = "community";
         return view('customer.community', compact("page"));
     }
-    public function news_detail(){
-        $page = "event";
-        return view('customer.news-detail', compact("page"));
+    public function contact(){
+        $page = "contact";
+        return view('customer.contact', compact("page"));
     }
 }

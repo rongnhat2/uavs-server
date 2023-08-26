@@ -9,10 +9,10 @@
 
 @section('body') 
 		<div class="I-news2">
-			<div class="page-header" style="background-image: url('{{ asset("customer/assets/images/top-bg.png") }}');">
+			<div class="page-header"  >
 				<div class="page-title">
 					<h2 class="title-block">
-						TIN TỨC VÀ SỰ KIỆN
+						TIN TỨC
 					</h2>
 				</div>
 			</div>

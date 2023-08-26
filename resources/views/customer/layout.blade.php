@@ -23,9 +23,9 @@
 				<div class="header-nav">
 					<a href="{{ route("customer.index") }}" page-name="index">Trang chủ</a>
 					<a href="{{ route("customer.about") }}" page-name="about">Giới thiệu</a>
-					<a href="{{ route("customer.future") }}" page-name="future">Sự kiện</a> 
-					<a href="{{ route("customer.event") }}" page-name="event">Blog</a>
-					<a href="{{ route("customer.community") }}" page-name="community">Liên hệ</a> 
+					<a href="{{ route("customer.event") }}" page-name="event">Sự kiện</a>
+					<a href="{{ route("customer.news") }}" page-name="news">Blog</a> 
+					<a href="{{ route("customer.contact") }}" page-name="contact">Liên hệ</a> 
 				</div>
 				<div class="nav-control">
 					<i class="fas fa-bars"></i>

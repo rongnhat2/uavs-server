@@ -56,7 +56,8 @@
 }
 .I-infomation .contact-wrapper{
 	overflow: hidden;
-	margin: 0 -20px 80px -20px;
+	margin: 0 -20px ;
+	padding: 0 0 80px 0;
 }
 .I-infomation .contact-wrapper .contact-item{
 	float: left;

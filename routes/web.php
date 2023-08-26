@@ -22,6 +22,7 @@ Route::get('future-detail/{slug}', 'Customer\DisplayController@future_detail')->
 Route::get('current', 'Customer\DisplayController@current')->name('customer.current');
 Route::get('current-detail/{slug}', 'Customer\DisplayController@current_detail')->name('customer.current.detail');
 Route::get('community', 'Customer\DisplayController@community')->name('customer.community');
+Route::get('contact', 'Customer\DisplayController@contact')->name('customer.contact');
 
 
 Route::get('news', 'Customer\DisplayController@news')->name('customer.news');
@@ -45,6 +46,15 @@ Route::prefix('customer')->group(function () {
             Route::get('/get', 'Admin\ExecutiveController@get')->name('admin.executive.get');
         });
 
+        Route::prefix('news')->group(function () {
+            Route::get('/get', 'Admin\NewsController@get')->name('admin.news.get'); 
+        });
+
+        Route::prefix('news-category')->group(function () {
+            Route::get('/get', 'Admin\NewsController@category_get')->name('admin.news.get'); 
+        });
+        
+
         Route::prefix('future')->group(function () {
             Route::get('/get', 'Admin\FutureController@get')->name('admin.future.get'); 
         });
@@ -59,14 +69,6 @@ Route::prefix('customer')->group(function () {
 
         Route::prefix('current-category')->group(function () {
             Route::get('/get', 'Admin\CurrentController@category_get')->name('admin.current.get'); 
-        });
-
-        Route::prefix('news')->group(function () {
-            Route::get('/get', 'Admin\NewsController@get')->name('admin.news.get'); 
-        });
-
-        Route::prefix('news-category')->group(function () {
-            Route::get('/get', 'Admin\NewsController@category_get')->name('admin.news.get'); 
         });
 
         Route::prefix('community')->group(function () {

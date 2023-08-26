@@ -8,11 +8,11 @@
 
 
 @section('body')
-	<div class="I-news">
-		<div class="page-header" style="background-image: url('assets/images/top-bg.png');">
+	<div class="I-news2">
+		<div class="page-header">
 			<div class="page-title">
 				<h2 class="title-block">
-					Về chúng tôi
+					Blog
 				</h2>
 			</div>
 		</div>
