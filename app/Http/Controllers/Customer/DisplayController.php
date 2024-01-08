@@ -46,7 +46,7 @@ class DisplayController extends Controller
     }
     public function sponsor(){
         $page = "sponsor";
-        return view('customer.sponsor', compact("page"));
+        return view('customer.sponsors', compact("page"));
     }
     public function blog(){
         $page = "blog";
@@ -60,5 +60,9 @@ class DisplayController extends Controller
         $page = "register";
         return view('customer.register', compact("page"));
     }
-    
+    public function newsletter(){
+        $page = "newsletter";
+        return view('customer.newsletter', compact("page"));
+    }
+
 }

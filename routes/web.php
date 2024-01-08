@@ -19,6 +19,7 @@ Route::get('event', 'Customer\DisplayController@event')->name('customer.event');
 Route::get('sponsor', 'Customer\DisplayController@sponsor')->name('customer.sponsor');
 Route::get('blog', 'Customer\DisplayController@blog')->name('customer.blog');
 Route::get('contact', 'Customer\DisplayController@contact')->name('customer.contact'); 
+Route::get('newsletter', 'Customer\DisplayController@newsletter')->name('customer.newsletter'); 
 Route::get('register', 'Customer\DisplayController@register')->name('customer.register'); 
 
 
