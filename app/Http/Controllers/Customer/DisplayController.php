@@ -64,5 +64,9 @@ class DisplayController extends Controller
         $page = "newsletter";
         return view('customer.newsletter', compact("page"));
     }
+    public function eventlist(){
+        $page = "event";
+        return view('customer.event-list', compact("page"));
+    }
 
 }

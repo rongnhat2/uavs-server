@@ -20,6 +20,7 @@ Route::get('sponsor', 'Customer\DisplayController@sponsor')->name('customer.spon
 Route::get('blog', 'Customer\DisplayController@blog')->name('customer.blog');
 Route::get('contact', 'Customer\DisplayController@contact')->name('customer.contact'); 
 Route::get('newsletter', 'Customer\DisplayController@newsletter')->name('customer.newsletter'); 
+Route::get('event-list', 'Customer\DisplayController@eventlist')->name('customer.eventlist'); 
 Route::get('register', 'Customer\DisplayController@register')->name('customer.register'); 
 
 
