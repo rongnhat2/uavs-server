@@ -1,5 +1,5 @@
 @extends('customer.layout')
-@section('title', "Về chúng tôi")
+@section('title', "Trang chủ")
 
 
 @section('css')
@@ -8,72 +8,199 @@
 
 
 @section('body') 
-		<div class="I-about-us">
-			<div class="page-header" >
-				<div class="page-title">
-					<h2 class="title-block">
-						Về chúng tôi
-					</h2>
-				</div>
-			</div>
-			<div class="wrapper">
-				<div class="mission-wrapper">
-					<div class="mission-content">
-						<div class="content-wrapper">
-							<div class="mission-title">
-								Sứ mệnh
-							</div>
-							<div class="mission-description">
-								United Association of Vietnamese Students in New South Wales (UAVS-NSW), established on March 25, 2018 is a connecting point of over 10000 Vietnamese students and 6 student organizations in NSW.
-							</div>
-						</div>
-					</div>
-					<div class="mission-image">
-						<div class="image-bg-01"><img src="{{ asset("customer/assets/images/about-bg-01.png") }}" alt=""></div>
-						<div class="image-bg-02"><img src="{{ asset("customer/assets/images/about-bg-02.png") }}" alt=""></div>
-						<div class="image-wrapper">
-							<img src="#" class="data-image-about" data-image-item="data_image_about_01" alt="">
-						</div>
-					</div>
+		<div class="I-page-about">
+			<div class="about-header">
+				<div class="wrapper">
+					<h3>Who we are</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 			</div>	
-			<div class="progress-wrapper">
-				<div id="dynamic-bg" class="dynamic-bg progress-bg">
-				   	<ul class="bg-bubbles">
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			            <li></li>
-			        </ul>
-				</div>
+			<div class="about-content">
 				<div class="wrapper">
-					<div class="progress-block">
-						<div class="process-image">
-							<img src="{{ asset("customer/assets/images/process-image.png") }}" alt="">
+					<div class="description-wrapper">
+						<div class="logo-content">
+							<img src="assets/images/logo.png" alt="">
 						</div>
-						<div class="process-content">
-							<div class="block-title">
-								Quá trình hình thành và phát triển
-							</div>
-							<div class="block-description">
-								Throughout over 4 years of operation, UAVS has had many outstanding events and competitions that serve both the needs of education and excursions such as: USC- UAVS Startup Challenge; SydneyGo (2019), UAVS Business Case Challenge (2020), UAVS Hackatrix (2021) and University Fair (2021 and 2022), and we will keep working to come up with even more and more remarkable events. 
-							</div>
-						</div>
+						<p class="description-detail">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+						<p class="description-detail">
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
 					</div>
+				</div>
+			</div>
+			<div class="partner-content">
+				<div class="wrapper">
+					<div class="component-title">
+						<span>Affiliated school</span>
+					</div>
+					<div class="partner-list">
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+						<div class="partner-item">
+							<div class="item-image"> </div>		
+							<div class="item-description">
+								<h3>School 1</h3>
+								<p><i class="fas fa-envelope"></i>: Email@gmail.com</p>
+								<p><i class="fas fa-globe"></i>: https://abc.com</p>
+								<p><i class="fas fa-address-card"></i>: Address</p> 
+							</div>	
+						</div>
+					</div> 
 				</div>
 			</div> 
 		</div>
+		<div class="I-members">
+			<div class="wrapper">
+				<div class="member-wrapper">
+					<div class="members-header">
+						<span>Members</span>
+					</div>
+					<div class="members-list">
+						<div class="member-item active">
+							2019
+						</div>
+						<div class="member-item">
+							2020
+						</div>
+						<div class="member-item">
+							2021
+						</div>
+						<div class="member-item">
+							2022
+						</div>
+						<div class="member-item">
+							2023
+						</div>
+						<div class="member-item">
+							2024
+						</div>
+					</div>
+					<div class="member-list-item">
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+						<div class="item">
+							<div class="item-image">
+								<div class="linkedin-link">
+								</div>
+							</div>
+							<h3>Hehe</h3>
+							<p>hehehe</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
 @endsection()
 
 @section('js') 
-<script type="text/javascript" src="{{ asset("customer/assets/js/page/about.js") }}"></script> 
+<script type="text/javascript" src="{{ asset("customer/assets/js/page/hotel-detail.js") }}"></script> 
 @endsection()

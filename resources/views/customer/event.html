@@ -22,13 +22,12 @@
 					<img src="assets/images/logo.png" alt="">
 				</a>
 				<div class="header-nav">
-					<a href="/" class="{{ $page == "index" ? "is-selected" : "" }}">Homepage</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "about" ? "is-selected" : "" }}">About</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Events</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Sponsor</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Blog</a> 
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Contact</a>
-					<a href="{{ route("customer.about") }}" class="register-button">Register</a> 
+					<a href="" class="is-selected">Homepage</a>
+					<a href="">About</a>
+					<a href="">Events</a>
+					<a href="">Blog</a>
+					<a href="">Contact</a>
+					<a href="" class="register-button">Register</a> 
 				</div>
 				<div class="nav-control">
 					<i class="fas fa-bars"></i>
@@ -37,7 +36,28 @@
 		</div>
 	</header>
 	<main> 
-		@yield('body')
+		<div class="I-page-event">
+			<div class="event-header">
+				<div class="wrapper">
+					<h3>We're always doing new things.</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="event-main">
+					<a href="#" class="event-item">
+						<div class="item-title">
+							UAVS Events
+						</div>
+					</a>
+					<a href="#" class="event-item">
+						<div class="item-title">
+							Student Events
+						</div>
+					</a> 
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<div class="wrapper">

@@ -22,13 +22,12 @@
 					<img src="assets/images/logo.png" alt="">
 				</a>
 				<div class="header-nav">
-					<a href="/" class="{{ $page == "index" ? "is-selected" : "" }}">Homepage</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "about" ? "is-selected" : "" }}">About</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Events</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Sponsor</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Blog</a> 
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Contact</a>
-					<a href="{{ route("customer.about") }}" class="register-button">Register</a> 
+					<a href="" class="is-selected">Homepage</a>
+					<a href="">About</a>
+					<a href="">Events</a>
+					<a href="">Blog</a>
+					<a href="">Contact</a>
+					<a href="" class="register-button">Register</a> 
 				</div>
 				<div class="nav-control">
 					<i class="fas fa-bars"></i>
@@ -37,7 +36,85 @@
 		</div>
 	</header>
 	<main> 
-		@yield('body')
+		<div class="I-page-blog">
+			<div class="blog-header">
+				<div class="wrapper">
+					<h3>UAVS Blueprint</h3>
+					<p>A publication by UAVS, writers for Bootcamp Publication on Medium.</p>
+				</div>
+			</div>	
+
+			<div class="wrapper">
+				<div class="newsletter-list">
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+					<div class="news-layout">
+						<div class="news-item">
+							<div class="item-images"></div>
+							<h3 class="item-title">
+								 It is a long established fact that a reader 
+							</h3>
+							<div class="item-download">
+								<a href="#" class="linked-link">Download</a>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
 	</main>
 	<footer>
 		<div class="wrapper">

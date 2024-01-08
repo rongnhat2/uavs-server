@@ -16,13 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'Customer\DisplayController@index')->name('customer.index');
 Route::get('about', 'Customer\DisplayController@about')->name('customer.about');
 Route::get('event', 'Customer\DisplayController@event')->name('customer.event');
-Route::get('event-detail/{slug}', 'Customer\DisplayController@event_detail')->name('customer.event.detail');
-Route::get('future', 'Customer\DisplayController@future')->name('customer.future');
-Route::get('future-detail/{slug}', 'Customer\DisplayController@future_detail')->name('customer.future.detail');
-Route::get('current', 'Customer\DisplayController@current')->name('customer.current');
-Route::get('current-detail/{slug}', 'Customer\DisplayController@current_detail')->name('customer.current.detail');
-Route::get('community', 'Customer\DisplayController@community')->name('customer.community');
-Route::get('contact', 'Customer\DisplayController@contact')->name('customer.contact');
+Route::get('sponsor', 'Customer\DisplayController@sponsor')->name('customer.sponsor');
+Route::get('blog', 'Customer\DisplayController@blog')->name('customer.blog');
+Route::get('contact', 'Customer\DisplayController@contact')->name('customer.contact'); 
+Route::get('register', 'Customer\DisplayController@register')->name('customer.register'); 
 
 
 Route::get('news', 'Customer\DisplayController@news')->name('customer.news');

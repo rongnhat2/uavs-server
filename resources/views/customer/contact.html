@@ -22,13 +22,12 @@
 					<img src="assets/images/logo.png" alt="">
 				</a>
 				<div class="header-nav">
-					<a href="/" class="{{ $page == "index" ? "is-selected" : "" }}">Homepage</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "about" ? "is-selected" : "" }}">About</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Events</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Sponsor</a>
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Blog</a> 
-					<a href="{{ route("customer.about") }}" class="{{ $page == "index" ? "is-selected" : "" }}">Contact</a>
-					<a href="{{ route("customer.about") }}" class="register-button">Register</a> 
+					<a href="" class="is-selected">Homepage</a>
+					<a href="">About</a>
+					<a href="">Events</a>
+					<a href="">Blog</a>
+					<a href="">Contact</a>
+					<a href="" class="register-button">Register</a> 
 				</div>
 				<div class="nav-control">
 					<i class="fas fa-bars"></i>
@@ -37,7 +36,43 @@
 		</div>
 	</header>
 	<main> 
-		@yield('body')
+		<div class="I-page-contact">
+			<div class="contact-header">
+				<div class="wrapper">
+					<h3>Contact to us.</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+			</div>
+			<div class="contact-content">
+				<div class="wrapper">
+					<a href="" class="email-content">UAVS@gmail.com</a> 
+					<div class="form-wrapper">
+						<div class="form-item"> 
+							<input type="text" class="form-input" placeholder="Name">
+						</div>
+						<div class="form-item"> 
+							<input type="text" class="form-input" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<div class="form-item"> 
+							<input type="text" class="form-input" placeholder="Subject">
+						</div>
+						<div class="form-item"> 
+							<input type="text" class="form-input" placeholder="Phone">
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<div class="form-item area">
+							<textarea class="form-input " rows="10" placeholder="Type your message here"></textarea>
+						</div> 
+					</div>
+					<div class="form-submit">
+						<a href="" class="linked-link">Send your message</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<div class="wrapper">
