@@ -40,9 +40,25 @@ class DisplayController extends Controller
         $page = "about";
         return view('customer.about', compact("page"));
     }
-    public function about(){
+    public function event(){
         $page = "event";
         return view('customer.event', compact("page"));
+    }
+    public function sponsor(){
+        $page = "sponsor";
+        return view('customer.sponsor', compact("page"));
+    }
+    public function blog(){
+        $page = "blog";
+        return view('customer.blog', compact("page"));
+    }
+    public function contact(){
+        $page = "contact";
+        return view('customer.contact', compact("page"));
+    }
+    public function register(){
+        $page = "register";
+        return view('customer.register', compact("page"));
     }
     
 }
