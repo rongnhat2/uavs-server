@@ -22,8 +22,8 @@
 						<div>
 							<p class="top-content">A STUDENT DESIGN SOCIETY</p>
 							<h1 class="main-content">Sydney University <span>Experience Design</span> Society</h1>
-							<p class="description-detail">We’re a society driven by students passionate about the design of everyday interactions, services, and experiences. SUEDE aims to bridge the gap between a theory-based education and practical industry-based learning.</p>
-							<p class="description-detail"> We help students be better prepared for the workforce while also creating a community centred around design.</p>
+							<p class="description-detail">UAVS - The United Associations of Vietnamese Students in NSW  | UAVS NSW is the Vietnamese Student Association in New South Wales, established for the first time with the support of 7 student associations at major universities in the NSW state of Australia - Macquarie University, University of New South Wales, University of Sydney, University of Wollongong, University of Technology Sydney, Western Sydney University, and University of Newcastle.</p>
+							<p class="description-detail"> UAVS was founded with the aim of advising and assisting the Vietnamese student community in their academic pursuits, career development, as well as fostering connections and elevating the activities of Vietnamese students in NSW, Australia.</p>
 							<div class="button-list">
 								<a href="">About Us</a>
 								<a href="" class="join">Join UAVS</a>
@@ -91,9 +91,7 @@
 					<span>What do we do</span>
 				</div>
 				<div class="event-description-wrapper">
-					<p>We connect students with one another, but also directly with leading industry partners in Sydney. We are always on the lookout to work with new industry partners, so please reach out!</p>
-					<p>We work with industry and graduate partners to provide fantastic events such as our signature Portfolio Parties, workshops, industry panels, raffle events and inter-society collaborative events.</p>
-					<p>We do everything from small-scale social events, such as Happy Hour Gaming, taco nights or pizza nights, to pub crawls and food outings, all the way through to networking nights! We are at the heart of a tight-knit, design centred community.</p>
+					<p>UAVS is dedicated to empowering Vietnamese students in New South Wales by organizing a wide range of engaging activities, exciting competitions, and impactful events to support career development and enhance leadership skills. Additionally, we strive to foster a sense of belonging and create a strong network within the Vietnamese student community. </p>
 				</div>
 				<div class="event-join-wrapper">
 					<div class="join-wrapper uavs">
@@ -102,7 +100,7 @@
 						</div>
 						<div class="card-image" style="background-image: url('assets/images/about.png');"></div>
 						<div class="card-description">
-							We work with industry and graduate partners to provide fantastic events such as our signature Portfolio Parties, workshops, industry panels, raffle events and inter-society collaborative events.
+							 In New South Wales, we collaborate with various Vietnamese communities and societies from different universities, providing a networking platform and organizing events such as career workshops and welcome events for incoming international students, including MOV, VGONG, VISUS, etc.
 						</div>
 						<a href="" class="event-link">View Events</a>
 					</div>
@@ -112,7 +110,7 @@
 						</div>
 						<div class="card-image" style="background-image: url('assets/images/about.png');"></div>
 						<div class="card-description">
-							We work with industry and graduate partners to provide fantastic events such as our signature Portfolio Parties, workshops, industry panels, raffle events and inter-society collaborative events.
+							We organise activities that revolve around social and professional events, such as the UAVS Start-up Challenge competition, UAVS Business Case Competition, and UAVS Career Fair, which are open to the Vietnamese student community. Our projects also include network and engaging opportunities with the Vietnamese culture.
 						</div>
 						<a href="" class="event-link">View Associated Events</a>
 					</div>
@@ -128,7 +126,7 @@
  				<div class="linked-wrapper">
  					<div class="linked-item">
  						<p class="linked-description">
- 							In addition to various other member perks, SUEDE members get access to our newsletter; The Material. It's rich with design resources, blog posts from faculty members and design students, industry news and job opportunities, and there's a new issue every fortnight.
+ 							Get ready for a monthly dose of awesomeness! Our UAVS newsletter is your VIP pass to the latest updates, exclusive content, community highlights, and upcoming events. Stay connected, stay informed, and let's make your journey in Australia more amazing together!
  						</p>
 						<a href="" class="linked-link">Join UAVS</a>
  					</div>

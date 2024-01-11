@@ -12,7 +12,7 @@
 		<div class="event-header">
 			<div class="wrapper">
 				<h3>We're always doing new things.</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<p>Every year, UAVS hosts a variety of events, spanning from warm welcomes and team-building activities to engaging academic pursuits. Our aim is to create a vibrant hub where students can build connections, stay engaged, and enjoy memorable moments throughout their journey in Australia. Join us in making your study experience an unforgettable adventure!</p>
 			</div>
 		</div>
 		<div class="wrapper">

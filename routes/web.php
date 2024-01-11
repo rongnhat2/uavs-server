@@ -23,7 +23,6 @@ Route::get('newsletter', 'Customer\DisplayController@newsletter')->name('custome
 Route::get('event-list', 'Customer\DisplayController@eventlist')->name('customer.eventlist'); 
 Route::get('register', 'Customer\DisplayController@register')->name('customer.register'); 
 
-
 Route::get('news', 'Customer\DisplayController@news')->name('customer.news');
 Route::get('news-detail', 'Customer\DisplayController@news_detail')->name('customer.news_detail');
 
